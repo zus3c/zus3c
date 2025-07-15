@@ -2,7 +2,7 @@
 <h3 align="center">Cybersecurity Auditor | Bug Bounty Hunter | Python & Automation Developer | AI & Prompt Engineer</h3>
 
 <p align="center">
-  <a href="https://github.com/zus3c"><img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" /></a>
+  <a href="https://github.com/zus3c"><img src="https://img.shields.io/github/followers/zus3c?label=Follow&style=social" /></a>
   <a href="https://linkedin.com/in/zus3c"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" /></a>
   <a href="https://medium.com/@zus3c"><img src="https://img.shields.io/badge/Medium-Read_My_Articles-black?logo=medium" /></a>
   <a href="https://x.com/zus3cu"><img src="https://img.shields.io/twitter/follow/zus3cu?style=social" /></a>
