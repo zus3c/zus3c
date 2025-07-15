@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zubair Usman - Developer, Cybersecurity Specialist | Bug Hunter & SQA Specialist</title>
+    <meta name="description" content="Professional portfolio of Zubair Usman, Cybersecurity Specialist with expertise in bug hunting, penetration testing, and security solutions. View projects, skills, and publications.">
+    <meta name="keywords" content="cybersecurity specialist, bug bounty hunter, penetration tester, ethical hacker, security researcher, web application security, vulnerability assessmentZus3c, Developer Portfolio, Cybersecurity Specialist, Software Testing, SQA Engineer, Penetration Testing, Full Stack Developer, DevSecOps Freelancer, Tech Consultant, QA Automation, CVE, Ethical Hacker>
+    <meta name="author" content="Zubair Usman, zus3c">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Zubair Usman - Cybersecurity Specialist">
+    <meta property="og:description" content="Build secure, scalable, and high-performing applications with Zus3c. Expert in development, DevSecOps, and software quality assurance. Available for freelance & consulting.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Twitter">
+    <meta name="twitter:url" content="https://x.com/zus3cu">
+    <meta name="twitter:title" content="Zus3c | Developer, Cybersecurity & QA Specialist">
+    <meta name="twitter:description" content="Tech-focused freelancer helping companies innovate securely. Dev | SQA | Security">
+    <meta name="twitter:image" content="https://x.com/zus3cu/photo"> <!-- Replace with actual image path -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="FAcebook | instagram">
+    <meta property="og:url" content="https://zus3c.dev/">
+    <meta property="og:title" content="Zus3c | Developer, Cybersecurity & QA Specialist">
+    <meta property="og:description" content="Secure, test, and scale your digital projects. Expert in automation, ethical hacking, and scalable software solutions.">
+    <meta property="og:image" content="https://scontent.fisb31-2.fna.fbcdn.net/v/t39.30808-1/497460066_4114993998782075_1419819611972199978_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=106&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeFnDsgIUmZnJNuE0wleevRH-d0C2tMbZS_53QLa0xtlL6IC7sgLtKelQHRzilv4pELhtrnAIbmEEx0H3e3Nn2IN&_nc_ohc=zS_qhl4L5b4Q7kNvwGHwC7m&_nc_oc=Adnnv5ooh3M87NUTQLX--XtyxwnhN7WNBfhMR4tMBrC7jVQ10E8jUiEZsu8u_bma8bU&_nc_zt=24&_nc_ht=scontent.fisb31-2.fna&_nc_gid=4pjWT9VDEnrpipXRIbDYIQ&oh=00_AfOZIJLivworRFBvX2e36GoXb4t5b8hEZoBkBvfpDUFXKg&oe=686DEF6C"> <!-- Replace with actual image path -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-glow': 'pulseGlow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        pulseGlow: {
+                            '0%, 100%': { opacity: '0.7' },
+                            '50%': { opacity: '1' },
+                        }
+                    },
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'sans-serif'],
+                        'exo': ['Exo 2', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --primary: #06b6d4;
+            --secondary: #8b5cf6;
+            --accent: #ec4899;
+            --dark: #0a0a1a;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            font-family: 'Exo 2', sans-serif;
+            color: #e0e0ff;
+            scroll-behavior: smooth;
+        }
+        
+        .cyber-grid {
+            background-image: 
+                linear-gradient(rgba(92, 107, 192, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(92, 107, 192, 0.1) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        
+        .glow {
+            filter: drop-shadow(0 0 8px currentColor);
+        }
+        
+        .neon-text {
+            text-shadow: 0 0 10px #5d9afc, 0 0 20px #5d9afc;
+        }
+        
+        .cyber-card {
+            background: rgba(16, 14, 41, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(92, 107, 192, 0.4);
+            box-shadow: 0 0 20px rgba(92, 107, 192, 0.3), 
+                        inset 0 0 20px rgba(92, 107, 192, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .cyber-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(93, 154, 252, 0.4);
+        }
+        
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+        }
+        
+        @keyframes scanline {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+        
+        .scanline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: rgba(0, 255, 213, 0.4);
+            box-shadow: 0 0 10px rgba(0, 255, 213, 0.8);
+            animation: scanline 8s linear infinite;
+            z-index: 100;
+        }
+        
+        .timeline-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary);
+            position: absolute;
+            left: -10px;
+            top: 5px;
+        }
+        
+        .timeline-line {
+            position: absolute;
+            left: 0;
+            top: 25px;
+            bottom: -25px;
+            width: 2px;
+            background: rgba(92, 107, 192, 0.4);
+        }
+        
+        .skill-bar {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        /* Custom Cursor Styles */
+        .cursor {
+          position: fixed;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: rgba(6, 182, 212, 0.5);
+          border: 2px solid #06b6d4;
+          transform: translate(-50%, -50%);
+          pointer-events: none;
+          mix-blend-mode: difference;
+          z-index: 9999;
+          transition: transform 0.1s ease;
+        }
+
+        .cursor-follower {
+          position: fixed;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: rgba(139, 92, 246, 0.2);
+          border: 1px solid #8b5cf6;
+          transform: translate(-50%, -50%);
+          pointer-events: none;
+          z-index: 9998;
+          transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease;
+        }
+
+        .cursor.active {
+          transform: translate(-50%, -50%) scale(1.5);
+          background: rgba(236, 72, 153, 0.8);
+        }
+
+        .cursor-follower.active {
+          transform: translate(-50%, -50%) scale(0.5);
+          background: rgba(236, 72, 153, 0.4);
+        }
+
+        .cursor.click {
+          animation: cursorClick 0.5s forwards;
+        }
+
+        @keyframes cursorClick {
+          0% {
+            transform: translate(-50%, -50%) scale(1);
+          }
+          50% {
+            transform: translate(-50%, -50%) scale(0.7);
+          }
+          100% {
+            transform: translate(-50%, -50%) scale(1);
+          }
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+          position: fixed;
+          bottom: 30px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 9997;
+          color: #06b6d4;
+          font-size: 24px;
+          animation: bounce 2s infinite;
+          opacity: 0.8;
+          cursor: pointer;
+        }
+
+        @keyframes bounce {
+          0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0) translateX(-50%);
+          }
+          40% {
+            transform: translateY(-20px) translateX(-50%);
+          }
+          60% {
+            transform: translateY(-10px) translateX(-50%);
+          }
+        }
+
+        /* Full-screen sections */
+        .full-screen-section {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            overflow-y: auto;
+            padding: 2rem;
+            box-sizing: border-box;
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+            z-index: 1;
+        }
+
+        .full-screen-section.active {
+            transform: translateY(0);
+            opacity: 1;
+            z-index: 2;
+        }
+
+        .full-screen-section:not(.active) {
+            transform: translateY(100%);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .section-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Navigation dots */
+        .section-nav {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .section-nav-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .section-nav-dot.active {
+            background-color: var(--primary);
+            transform: scale(1.3);
+        }
+
+        /* Projects Section Specific Styles */
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .project-card {
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .section-nav {
+                display: none;
+            }
+            
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body class="relative cybergrid overflow-hidden">
+    <!-- Background elements -->
+    <div class="absolute top-1/4 left-1/4 w-48 h-48 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 opacity-30 blur-xl animate-float"></div>
+    <div class="absolute top-1/3 right-1/4 w-32 h-32 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 opacity-40 blur-xl animate-float"></div>
+    <div class="absolute bottom-1/4 left-1/3 w-40 h-40 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 opacity-30 blur-xl animate-float"></div>
+    <div class="absolute top-1/5 right-1/5 w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-cyan-300 opacity-50 blur-xl animate-float"></div>
+    
+    <div class="absolute top-10 left-10 w-16 h-16 border-2 border-cyan-400 opacity-50 rotate-45 animate-pulse-glow"></div>
+    <div class="absolute bottom-20 right-20 w-24 h-24 border-2 border-purple-500 opacity-50 rotate-12 animate-pulse-glow"></div>
+    
+    <!-- Scanline effect -->
+    <div class="scanline"></div>
+    
+    <!-- Particle container -->
+    <div id="particles-container" class="absolute inset-0 pointer-events-none"></div>
+    
+    <!-- Custom Cursor Elements -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+
+    <!-- Section Navigation Dots -->
+    <div class="section-nav">
+        <div class="section-nav-dot active" data-section="home"></div>
+        <div class="section-nav-dot" data-section="about"></div>
+        <div class="section-nav-dot" data-section="projects"></div>
+        <div class="section-nav-dot" data-section="education"></div>
+        <div class="section-nav-dot" data-section="skills"></div>
+        <div class="section-nav-dot" data-section="publications"></div>
+        <div class="section-nav-dot" data-section="contact"></div>
+    </div>
+    
+    <!-- Main content -->
+    <!-- Hero Section -->
+    <section id="home" class="full-screen-section active">
+        <div class="section-content">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full flex items-center justify-center animate-pulse-glow">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFeEXT7HaKlnw/profile-displayphoto-shrink_200_200/B4DZb9ZrzYG8Ac-/0/1748008092646?e=1756944000&v=beta&t=UfBpGDNcVYYVfUzWB-JRYrSxRs6AqpQYt5Sq95kKIf0" alt="Zubair Usman Profile Picture" class="w-60 h-60 rounded-full object-cover border-4 border-gray-800">
+                        </div>
+                        <div class="absolute -bottom-3 -right-3 bg-cyan-500 text-gray-900 px-4 py-1 rounded-full font-bold">
+                            Available
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-2/3 text-center md:text-left">
+                    <h1 class="hero-title text-5xl md:text-7xl font-bold font-orbitron mb-4 text-cyan-300">
+                        ZUBAIR <span class="text-purple-400">USMAN</span>
+                    </h1>
+                    
+                    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-blue-300">
+                        Software Engineer | Developer | Bug Hunter
+                    </h2>
+                    
+                    <p class="text-x.5 mb-8 max-w-2xl mx-auto md:mx-0">
+                        Helping businesses build secure, scalable, and high-quality software through full-stack development, cybersecurity, and software testing expertise.
+                    </p>
+                    
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <button class="section-nav-button px-8 py-3 bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg font-bold text-white hover:from-purple-700 hover:to-cyan-600 transition-all transform hover:scale-105 glow" data-section="contact">
+                            Contact Me
+                        </button>
+                    </div>
+                    
+                    <div class="mt-10 flex justify-center md:justify-start space-x-6">
+                        <a href="https://www.linkedin.com/in/zus3c" target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-all">
+                            <i class="fab fa-linkedin-in text-blue-400 text-xl"></i>
+                        </a>
+                        <a href="https://github.com/zus3c" target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-all">
+                            <i class="fab fa-github text-white text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/+923005258451" target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-600 transition-all">
+                            <i class="fab fa-whatsapp text-green-400 text-xl"></i>
+                        </a>
+                        <a href="mailto:zus3cu@gmail.com" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition-all">
+                            <i class="fas fa-envelope text-red-400 text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="full-screen-section">
+        <div class="section-content">
+            <h2 class="section-title text-3xl md:text-4xl font-bold font-orbitron text-center mb-16 text-cyan-300">
+                ABOUT <span class="text-purple-400">ME</span>
+            </h2>
+            
+            <div class="cyber-card p-8">
+                <p class="text-lg mb-6">
+                    I’m a passionate tech professional with expertise in development, cybersecurity, and software quality assurance.
+                    I help startups and businesses build secure, scalable, and well-tested applications by combining full-stack development skills with security-first thinking and quality-driven workflows.
+                    From automating tests to identifying vulnerabilities, I deliver clean, efficient, and secure solutions.
+                    Let’s connect if you're looking for someone who can code, test, and protect all in one place.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-cyan-300 mb-4">Personal Info</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-envelope text-purple-400 mt-1 mr-3"></i>
+                                <span>zus3cu@gmail.com</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-phone text-purple-400 mt-1 mr-3"></i>
+                                <span>(+92) 3005258451</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold text-cyan-300 mb-4">Language Skills</h3>
+                        <ul class="space-y-3">
+                            <li>
+                                <span class="font-bold">Urdu:</span> Native Speaker
+                            </li>
+                            <li>
+                                <span class="font-bold">English:</span> Professional Proficiency
+                                <div class="mt-2">
+                                    <div class="flex justify-between text-sm">
+                                    </div>
+                                    <div class="flex justify-between text-sm">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Projects & Exploits Section -->
+<section id="projects" class="full-screen-section bg-gray-900 bg-opacity-50">
+    <div class="section-content">
+        <h2 class="section-title text-3xl md:text-4xl font-bold font-orbitron text-center mb-16 text-cyan-300">
+            PROJECTS <span class="text-purple-400">& EXPLOITS</span>
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6"> <!-- Changed to 3-column grid -->
+            <!-- Project 1 -->
+            <article class="cyber-card p-6 h-full">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-cyan-300">
+                        SSRF Exploitation Cheatsheet
+                    </h3>
+                    <span class="text-purple-400 font-bold">2025</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-bug text-red-400 mr-2"></i>
+                    <span class="font-bold text-sm">Web Security | SSRF | Burp Suite</span>
+                </div>
+
+                <ul class="list-disc pl-5 space-y-2 text-sm">
+                    <li>Comprehensive cheatsheet for Server-Side Request Forgery (SSRF) vulnerabilities</li>
+                    <li>Covers payloads, bypass techniques, and real-world exploitation scenarios</li>
+                    <li>Useful for bug bounty hunters, penetration testers, and red teams</li>
+                    <li>Includes Burp Suite configurations and SSRF chaining strategies</li>
+                </ul>
+
+                <div class="mt-4">
+                    <a href="https://github.com/zus3c/ssrf-cheatsheet-2025" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center text-cyan-300 hover:underline text-sm">
+                        <i class="fab fa-github mr-2"></i>
+                        View Resource
+                    </a>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="cyber-card p-6 h-full"> <!-- Added h-full for equal height -->
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-cyan-300">OffSec Automation Toolkit</h3>
+                    <span class="text-purple-400 font-bold">2024</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-terminal text-green-400 mr-2"></i>
+                    <span class="font-bold text-sm">Bash | Nmap | Sublist3r | Amass | Gau | Waybackurls | Dirsearch</span>
+                </div>
+
+                <ul class="list-disc pl-5 space-y-2 text-sm">
+                    <li>Developed a modular Bash-based toolkit for efficient offensive security automation</li>
+                    <li>Automates reconnaissance and enumeration using top open-source tools</li>
+                    <li>Single script (`file.sh`) integrates scanning, subdomain discovery, and directory brute-forcing</li>
+                    <li>Ideal for bug bounty and penetration testing workflows</li>
+                </ul>
+
+                <div class="mt-4">
+                    <a href="https://github.com/zus3c/offsec-toolkit" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center text-cyan-300 hover:underline text-sm">
+                        <i class="fab fa-github mr-2"></i>
+                        View Toolkit
+                    </a>
+                </div>
+            </article>
+            <!-- Project 3 -->
+            <article class="cyber-card p-6 h-full">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-cyan-300">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                            BugDrillX
+                        </a>
+                    </h3>
+                    <span class="text-purple-400 font-bold">2025</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-bug text-red-400 mr-2"></i>
+                    <span class="font-bold text-sm">HTML | TailwindCSS | Cybersecurity | OWASP</span>
+                </div>
+
+                <ul class="list-disc pl-5 space-y-2 text-sm">
+                    <li>Launched a full-stack educational platform for aspiring bug bounty hunters</li>
+                    <li>Features structured learning paths: Recon, Web/Mobile Testing, Cloud, and more</li>
+                    <li>Integrated real-world labs and tools for hands-on practice</li>
+                    <li>Empowered over 500+ users to kickstart their ethical hacking journey</li>
+                </ul>
+
+                <div class="mt-4">
+                    <a href="https://zus3c.github.io/BugDrillX/main.html"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center text-cyan-300 hover:underline text-sm">
+                        <i class="fas fa-globe mr-2"></i>
+                        Visit BugDrillX
+                    </a>
+                </div>
+            </article>
+            <!-- Project 4 -->
+            <article class="cyber-card p-6 h-full">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-cyan-300">Edison Lighting MIS System</h3>
+                    <span class="text-purple-400 font-bold">2024</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-lightbulb text-yellow-400 mr-2"></i>
+                    <span class="font-bold text-sm">C# | .NET Framework | Windows Forms | SQL Server</span>
+                </div>
+
+                <ul class="list-disc pl-5 space-y-2 text-sm">
+                    <li>Developed a desktop-based Management Information System for a lighting company</li>
+                    <li>Utilized Windows Forms and C# to build a user-friendly interface</li>
+                    <li>Connected to SQL Server for structured data management and reporting</li>
+                    <li>Compiled into a secure `.dll` for custom module deployment</li>
+                </ul>
+
+                <div class="mt-4">
+                    <a href="https://github.com/zus3c/Edison-Lighting-MIS" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center text-cyan-300 hover:underline text-sm">
+                        <i class="fab fa-github mr-2"></i>
+                        View Edison-Lighting-MIS
+                    </a>
+                </div>
+            </article>
+            <!-- Project 5 -->
+            <article class="cyber-card p-6 h-full">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-cyan-300">Remote Code Execution (RCE) – Bug Bounty PoC</h3>
+                    <span class="text-purple-400 font-bold">2024</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-bug text-red-400 mr-2"></i>
+                    <span class="font-bold text-sm">Burp Suite | JavaScript Debugging | Exploit Development</span>
+                </div>
+
+                <ul class="list-disc pl-5 space-y-2 text-sm">
+                    <li>Discovered critical Remote Code Execution vulnerability in a private web application</li>
+                    <li>Exploited insecure eval() usage leading to command injection</li>
+                    <li>Crafted a working proof-of-concept using JavaScript payloads and browser dev tools</li>
+                    <li>Reported via responsible disclosure and received acknowledgment</li>
+                </ul>
+
+                <div class="mt-4">
+                    <a href="https://www.linkedin.com/posts/zus3c_rce-bug-bounty-poc-activity-7334597240235134976-Z533?utm_source=share&utm_medium=member_desktop" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center text-cyan-300 hover:underline text-sm">
+                        <i class="fab fa-linkedin mr-2"></i>
+                        View PoC on LinkedIn
+                    </a>
+                </div>
+            </article>
+            <!-- Project 6 -->
+            <article class="cyber-card p-6 h-full">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-bold text-cyan-300">WordPress Hosting Vulnerability Assessment</h3>
+                    <span class="text-purple-400 font-bold">2024</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-shield-alt text-red-400 mr-2"></i>
+                    <span class="font-bold text-sm">Burp Suite | Manual Testing | Recon | WordPress</span>
+                </div>
+
+                <ul class="list-disc pl-5 space-y-2 text-sm">
+                    <li>Discovered multiple critical vulnerabilities on a WordPress hosting platform</li>
+                    <li>Exposed configuration files including <code>wp-config.php</code> and other sensitive data</li>
+                    <li>Identified XSS flaws, directory listing exposures, and misconfigured HTTP headers</li>
+                </ul>
+
+                <div class="mt-4">
+                    <a href="https://www.linkedin.com/posts/zus3c_wordpresssecurity-infosec-ethicalhacking-activity-7325388794180911104-EHsU?utm_source=share&utm_medium=member_desktop" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center text-cyan-300 hover:underline text-sm">
+                        <i class="fab fa-linkedin mr-2"></i>
+                        View Case Study
+                    </a>
+                </div>
+            </article>
+
+
+        </div>
+    </div>
+</section>
+    
+    <!-- Education Section -->
+    <section id="education" class="full-screen-section">
+        <div class="section-content">
+            <h2 class="section-title text-3xl md:text-4xl font-bold font-orbitron text-center mb-16 text-cyan-300">
+                EDUCATION <span class="text-purple-400">& TRAINING</span>
+            </h2>
+            
+            <!-- Education 1 -->
+            <article class="cyber-card p-6 mb-8">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-2xl font-bold text-cyan-300">Bachelor of Science in Software Engineering</h3>
+                    <span class="text-purple-400 font-bold">Sep 2018 - Aug 2022</span>
+                </div>
+                
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-graduation-cap text-blue-400 mr-2"></i>
+                    <span class="font-bold">Abasyn University Of Sciences And Technology Peshawar</span>
+                    <a href="https://peshawar.abasyn.edu.pk/" target="_blank" rel="noopener noreferrer" class="ml-2 text-cyan-300 hover:underline">peshawar.abasyn.edu.pk</a>
+                </div>
+                
+                <p class="mb-4">Peshawar, Pakistan | EQF level 6</p>
+            </article>
+            
+            <!-- Education 2 -->
+            <article class="cyber-card p-6 mb-8">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-2xl font-bold text-cyan-300">Diploma in Commerce (D.Com)</h3>
+                    <span class="text-purple-400 font-bold">Jul 2016 - Aug 2018</span>
+                </div>
+                
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-graduation-cap text-blue-400 mr-2"></i>
+                    <span class="font-bold">Apostle Degree College</span>
+                    <a href="https://apostledegreecollege.wordpress.com/" target="_blank" rel="noopener noreferrer" class="ml-2 text-cyan-300 hover:underline">apostledegreecollege.wordpress.com</a>
+                </div>
+                
+                <p class="mb-4">Nowshera, Pakistan | EQF level 5</p>
+            </article>
+            
+            <!-- Education 3 -->
+            <article class="cyber-card p-6">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-2xl font-bold text-cyan-300">Matriculation in Computer Science</h3>
+                    <span class="text-purple-400 font-bold">Jul 2012 - Aug 2014</span>
+                </div>
+                
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-graduation-cap text-blue-400 mr-2"></i>
+                    <span class="font-bold">GOVT Boys High School Rawalpindi</span>
+                </div>
+                
+                <p class="mb-4">Rawalpindi, Pakistan | EQF level 4</p>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="full-screen-section bg-gray-900 bg-opacity-50">
+        <div class="section-content">
+            <h2 class="section-title text-3xl md:text-4xl font-bold font-orbitron text-center mb-16 text-cyan-300">
+                DIGITAL <span class="text-purple-400">SKILLS</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Technical Skills -->
+                <article class="cyber-card p-6">
+                    <h3 class="text-2xl font-bold text-cyan-300 mb-6 flex items-center">
+                        <i class="fas fa-laptop-code mr-3"></i>
+                        Technical Skills
+                    </h3>
+                    
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Project Management</span>
+                                <span class="text-cyan-300">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Technical Writing</span>
+                                <span class="text-cyan-300">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Article Writing</span>
+                                <span class="text-cyan-300">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Cyber Security Skills -->
+                <article class="cyber-card p-6">
+                    <h3 class="text-2xl font-bold text-cyan-300 mb-6 flex items-center">
+                        <i class="fas fa-shield-alt mr-3"></i>
+                        Cyber Security
+                    </h3>
+                    
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Bug Hunting</span>
+                                <span class="text-cyan-300">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Penetration Testing</span>
+                                <span class="text-cyan-300">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">OWASP Top 10</span>
+                                <span class="text-cyan-300">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Linux Security</span>
+                                <span class="text-cyan-300">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- SQA Skills -->
+                <article class="cyber-card p-6">
+                    <h3 class="text-2xl font-bold text-cyan-300 mb-6 flex items-center">
+                        <i class="fas fa-check-circle mr-3"></i>
+                        Software Quality Assurance
+                    </h3>
+                    
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Manual Testing</span>
+                                <span class="text-cyan-300">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Agile Testing</span>
+                                <span class="text-cyan-300">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Functional Testing</span>
+                                <span class="text-cyan-300">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Development Skills -->
+                <article class="cyber-card p-6">
+                    <h3 class="text-2xl font-bold text-cyan-300 mb-6 flex items-center">
+                        <i class="fas fa-code mr-3"></i>
+                        Development
+                    </h3>
+                    
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">WordPress Development</span>
+                                <span class="text-cyan-300">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Python Scripting</span>
+                                <span class="text-cyan-300">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Packet Tracer</span>
+                                <span class="text-cyan-300">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Publications Section -->
+    <section id="publications" class="full-screen-section">
+        <div class="section-content">
+            <h2 class="section-title text-3xl md:text-4xl font-bold font-orbitron text-center mb-16 text-cyan-300">
+                PUBLICATIONS <span class="text-purple-400">& AWARDS</span>
+            </h2>
+            
+            <!-- Publications -->
+            <article class="cyber-card p-6 mb-8">
+                <h3 class="text-2xl font-bold text-cyan-300 mb-6">Publications</h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xl font-bold text-purple-400">Bug Bounty Hunting (2021)</h4>
+                        <p class="mt-2">This article discusses what bug bounty hunting is and how to get started. It also provides a list of resources for learning more about bug bounty hunting. Some of the important points are that bug bounty hunting is a great way to learn about security and that there are many different resources available to help you get started.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold text-purple-400">Bug Bounty Methodology (Volume 2) (2021)</h4>
+                        <p class="mt-2">This article discusses what bug bounties are and how to get started. It also details different reconnaissance and enumeration techniques to use when searching for vulnerabilities. Some specific vulnerabilities covered are XSS, SQL injection, and CSRF.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold text-purple-400">Bug Hunting with GPT: Tips, Tricks, and Prompts (2023)</h4>
+                        <p class="mt-2">Bug hunting is an essential aspect of software development. It involves identifying, analyzing, and fixing bugs to ensure the software functions as intended. With the advent of AI technologies like Generative Pretrained Transformer (GPT), bug hunting has become more efficient and effective. This article provides tips, tricks, and insights on how to leverage GPT for bug hunting.</p>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Awards -->
+            <article class="cyber-card p-6">
+                <h3 class="text-2xl font-bold text-cyan-300 mb-6">Honors & Awards</h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xl font-bold text-purple-400">Best Employee of the Year (2022)</h4>
+                        <p class="mt-2">Awarded by BRT Peshawar for dedication, hard work, and commitment to excellence that made a significant impact on the organization.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="full-screen-section bg-gray-900 bg-opacity-50">
+        <div class="section-content">
+            <h2 class="section-title text-3xl md:text-4xl font-bold font-orbitron text-center mb-16 text-cyan-300">
+                CONTACT <span class="text-purple-400">ME</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <article class="cyber-card p-6">
+                    <h3 class="text-2xl font-bold text-cyan-300 mb-6">Get In Touch</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-cyan-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Location</h4>
+                                <p>Rawalpindi Cantt, Pakistan</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-cyan-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Email</h4>
+                                <p>zus3cu@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-cyan-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Phone</h4>
+                                <p>(+92) 3005258451</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                                <i class="fab fa-whatsapp text-cyan-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">WhatsApp</h4>
+                                <p>+92 3005258451</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold text-lg mb-4">Follow Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/zus3c" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-all">
+                                <i class="fab fa-linkedin-in text-blue-400"></i>
+                            </a>
+                            <a href="https://github.com/zus3c" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-all">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/zus3c" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-all">
+                                <i class="fab fa-instagram text-pink-400"></i>
+                            </a>
+                            <a href="https://www.facebook.com/zus3c/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition-all">
+                                <i class="fab fa-facebook-f text-blue-400"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="cyber-card p-6">
+                    <h3 class="text-2xl font-bold text-cyan-300 mb-6">Send a Message</h3>
+                    
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-500">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-500">
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-500">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg font-bold text-white hover:from-purple-700 hover:to-cyan-600 transition-all transform hover:scale-[1.02] glow">
+                            Send Message
+                        </button>
+                        <div id="form-message" class="mt-4 text-center hidden"></div>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // Create particles on mouse move
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('particles-container');
+            const colors = ['#6366f1', '#8b5cf6', '#06b6d4', '#3b82f6', '#ec4899'];
+            
+            document.addEventListener('mousemove', (e) => {
+                for (let i = 0; i < 2; i++) {
+                    const particle = document.createElement('div');
+                    particle.classList.add('particle');
+                    
+                    const size = Math.random() * 8 + 2;
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    
+                    particle.style.width = `${size}px`;
+                    particle.style.height = `${size}px`;
+                    particle.style.backgroundColor = color;
+                    particle.style.boxShadow = `0 0 ${size}px ${color}`;
+                    
+                    // Add some random offset for each particle
+                    const offsetX = (Math.random() - 0.5) * 30;
+                    const offsetY = (Math.random() - 0.5) * 30;
+                    
+                    particle.style.left = `${e.clientX + offsetX}px`;
+                    particle.style.top = `${e.clientY + offsetY}px`;
+                    
+                    container.appendChild(particle);
+                    
+                    // Animate and remove particle
+                    setTimeout(() => {
+                        particle.style.transform = `translate(-50%, -50%) scale(0)`;
+                        particle.style.opacity = '0';
+                        setTimeout(() => {
+                            particle.remove();
+                        }, 300);
+                    }, 1000);
+                }
+            });
+            
+            // Custom Cursor with Scroll Effects
+            const cursor = document.querySelector('.cursor');
+            const cursorFollower = document.querySelector('.cursor-follower');
+            const scrollIndicator = document.querySelector('.scroll-indicator');
+            
+            // Custom cursor movement
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+                cursorFollower.style.left = e.clientX + 'px';
+                cursorFollower.style.top = e.clientY + 'px';
+            });
+            
+            // Hover effects
+            document.querySelectorAll('a, button, input, .cyber-card').forEach(el => {
+                el.addEventListener('mouseenter', () => {
+                    cursor.classList.add('active');
+                    cursorFollower.classList.add('active');
+                });
+                el.addEventListener('mouseleave', () => {
+                    cursor.classList.remove('active');
+                    cursorFollower.classList.remove('active');
+                });
+            });
+            
+            // Click effect
+            document.addEventListener('click', () => {
+                cursor.classList.add('click');
+                setTimeout(() => {
+                    cursor.classList.remove('click');
+                }, 500);
+            });
+            
+            // Section navigation functionality
+            const sections = document.querySelectorAll('.full-screen-section');
+            const navDots = document.querySelectorAll('.section-nav-dot');
+            const navButtons = document.querySelectorAll('.section-nav-button');
+            
+            function setActiveSection(sectionId) {
+                // Update sections
+                sections.forEach(section => {
+                    if (section.id === sectionId) {
+                        section.classList.add('active');
+                    } else {
+                        section.classList.remove('active');
+                    }
+                });
+                
+                // Update navigation dots
+                navDots.forEach(dot => {
+                    if (dot.dataset.section === sectionId) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+                
+                // Update URL hash
+                history.pushState(null, null, `#${sectionId}`);
+            }
+            
+            // Handle dot clicks
+            navDots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    const sectionId = dot.dataset.section;
+                    setActiveSection(sectionId);
+                });
+            });
+            
+            // Handle button clicks
+            navButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const sectionId = button.dataset.section;
+                    setActiveSection(sectionId);
+                });
+            });
+            
+            // Handle initial hash
+            if (window.location.hash) {
+                const sectionId = window.location.hash.substring(1);
+                setActiveSection(sectionId);
+            }
+            
+            // Handle keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                const currentSection = document.querySelector('.full-screen-section.active');
+                if (!currentSection) return;
+                
+                const currentIndex = Array.from(sections).indexOf(currentSection);
+                
+                if (e.key === 'ArrowDown' && currentIndex < sections.length - 1) {
+                    e.preventDefault();
+                    setActiveSection(sections[currentIndex + 1].id);
+                } else if (e.key === 'ArrowUp' && currentIndex > 0) {
+                    e.preventDefault();
+                    setActiveSection(sections[currentIndex - 1].id);
+                }
+            });
+            
+            // Handle scroll indicator click
+            scrollIndicator.addEventListener('click', () => {
+                const currentSection = document.querySelector('.full-screen-section.active');
+                if (!currentSection) return;
+                
+                const currentIndex = Array.from(sections).indexOf(currentSection);
+                if (currentIndex < sections.length - 1) {
+                    setActiveSection(sections[currentIndex + 1].id);
+                }
+            });
+            
+            // Contact form submission
+            const contactForm = document.getElementById('contact-form');
+            const formMessage = document.getElementById('form-message');
+            
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const formData = new FormData(contactForm);
+                const submitButton = contactForm.querySelector('button[type="submit"]');
+                const originalButtonText = submitButton.textContent;
+                
+                try {
+                    submitButton.disabled = true;
+                    submitButton.textContent = 'Sending...';
+                    
+                    // Using FormSubmit.co for form submission
+                    const response = await fetch('https://formsubmit.co/ajax/zus3cu@gmail.com', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            name: formData.get('name'),
+                            email: formData.get('email'),
+                            subject: formData.get('subject'),
+                            message: formData.get('message')
+                        })
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (response.ok) {
+                        formMessage.textContent = 'Message sent successfully!';
+                        formMessage.classList.remove('hidden', 'text-red-400');
+                        formMessage.classList.add('text-green-400');
+                        contactForm.reset();
+                    } else {
+                        throw new Error(result.message || 'Failed to send message');
+                    }
+                } catch (error) {
+                    formMessage.textContent = error.message || 'An error occurred. Please try again.';
+                    formMessage.classList.remove('hidden', 'text-green-400');
+                    formMessage.classList.add('text-red-400');
+                } finally {
+                    submitButton.disabled = false;
+                    submitButton.textContent = originalButtonText;
+                    formMessage.classList.remove('hidden');
+                    
+                    // Hide message after 5 seconds
+                    setTimeout(() => {
+                        formMessage.classList.add('hidden');
+                    }, 5000);
+                }
+            });
+            
+            // Mouse wheel scroll functionality
+            let isScrolling = false;
+            
+            document.addEventListener('wheel', (e) => {
+                if (isScrolling) return;
+                
+                const currentSection = document.querySelector('.full-screen-section.active');
+                if (!currentSection) return;
+                
+                const currentIndex = Array.from(sections).indexOf(currentSection);
+                const delta = Math.sign(e.deltaY);
+                
+                let nextIndex = currentIndex;
+                
+                if (delta > 0 && currentIndex < sections.length - 1) {
+                    nextIndex = currentIndex + 1;
+                } else if (delta < 0 && currentIndex > 0) {
+                    nextIndex = currentIndex - 1;
+                }
+                
+                if (nextIndex !== currentIndex) {
+                    isScrolling = true;
+                    setActiveSection(sections[nextIndex].id);
+                    
+                    setTimeout(() => {
+                        isScrolling = false;
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
